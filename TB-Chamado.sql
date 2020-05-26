@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS Chamados(
 );
 
 
-SELECT idChamados, descricao, titulo FROM Chamados;
+SELECT * FROM Chamados;
 SELECT idChamados, descricao, titulo FROM Chamados WHERE ID = 1;
 
 INSERT INTO Chamados(
